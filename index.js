@@ -23,7 +23,7 @@ app.post('/users', (req, res) => {
 
   userDatabase.push(user);
 
-  const welcomeMessage = 'Welcome to Opalod! Your verification code is 54875';
+  const welcomeMessage = 'Welcome to my Chillz! Your verification code is 54875';
 
   sendSms(user.phone, welcomeMessage);
 
